@@ -10,3 +10,7 @@ variable "region" {
 variable "public_key" {
     default = "ssh-rsa CHANGEME"
 }
+variable "user" {
+    default = "ubuntu"
+}
+
